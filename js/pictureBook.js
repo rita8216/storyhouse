@@ -113,6 +113,12 @@
 // }
 // });
 
+$(window).scroll(function(){
+
+  storyWheel2();
+});
+
+
 $(document).on('click','a',function(event){
 
   storyWheel2();
